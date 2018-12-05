@@ -1,0 +1,125 @@
+#all
+{
+    display: flex;
+    flex-direction: column;
+}
+#top
+{
+    width: 100%;
+    height: 100px;
+    background: dimgrey;
+}
+#top_text
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 50px;
+    line-height:100px;
+    display: inline-block;
+}
+#button
+{
+    width: 100%;
+    flex: 1;
+   /* border: 1px solid black;*/
+    display: flex;
+}
+#left
+{
+    /*!*width:200px ;*/
+    height:500px;
+    flex: 0.2;
+    /*border-bottom:1px solid lightgray;*/
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+.left_click
+{
+    height:50px;
+    width: 190px;
+    /*border-bottom:1px solid lightgray;*/
+    line-height: 50px;
+    padding-left: 10px;
+}
+.left_click1
+{
+    height:50px;
+    width: 190px;
+    /*border-bottom:1px solid lightgray;*/
+    line-height: 50px;
+    padding-left: 10px;
+}
+.left_click2
+{
+    height:50px;
+    width: 190px;
+   /* border-bottom:1px solid lightgray;*/
+    line-height: 50px;
+    padding-left: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.Firlist
+{
+    list-style: none;
+}
+.Firlist > li
+{
+   /* border: 1px solid black;*/
+    height: 30px;
+    line-height: 30px;
+}
+.Firlist1
+{
+    list-style: none;
+}
+.Firlist1 > li
+{
+    /* border: 1px solid black;*/
+    height: 30px;
+    line-height: 30px;
+}
+/*#biglist{
+    list-style: none;
+    padding: 0px;
+}
+#biglist > li
+{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}*/
+#right
+{
+    flex: 0.8;
+    display: flex;
+    /*flex: 1;*/
+    height:500px;
+    /*border:1px solid black;*/
+    border-right: 1px solid lightgray;
+
+}
+#likediv
+{
+    /*width: 1145px;
+    height: 497px;*/
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*position: absolute;*/
+    /*margin-left: 0px;*/
+    /*margin-top: 0px;*/
+    /*display: flex;*/
+
+}
+#exit {
+    display: inline-block;
+    padding-left: 900px;
+}

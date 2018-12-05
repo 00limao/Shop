@@ -1,0 +1,51 @@
+#out
+{
+    /*height: 430px;*/
+   /* width: 950px;*/
+  /*  border: 1px solid black;*/
+    display: flex;
+}
+#left
+{
+    width: 200px;
+    height: 430px;
+   /* border: 1px solid black;*/
+
+}
+.row
+{
+    height: 70px;
+/*    border: 1px solid black;*/
+    margin-top: 35px;
+    /*align-items: center;*/
+    margin-left: 10px;
+}
+#middle1
+{
+    width: 200px;
+    height: 430px;
+   /* border: 1px solid black;*/
+}
+#middle2
+{
+    width: 200px;
+    height: 430px;
+  /*  border: 1px solid black;*/
+}
+.row1
+{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#right1
+{
+    width: 200px;
+    height: 430px;
+/*    border: 1px solid black;*/
+}
+#tupian
+{
+    height: 200px;
+    width: 200px;
+    border: 1px solid gainsboro;
+}
